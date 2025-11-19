@@ -50,6 +50,14 @@ donda version
     "conversation_id": "optional-conversation-id"
   }
   ```
+  
+## Thanks
+
+- [lancor](https://github.com/dirmacs/lancor)
+- [llama.cpp](https://github.com/ggerganov/llama.cpp)
+- [pgvector](https://github.com/pgvector/pgvector)
+
+and most importantly [tichy](https://github.com/lechgu/tichy), `donda` began life as a rewrite of `tichy` in Rust.
 
 ## License
 
