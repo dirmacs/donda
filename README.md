@@ -22,6 +22,23 @@ A Rust-based RAG (Retrieval-Augmented Generation) system with llama.cpp integrat
 
 ## Usage
 
+First start a PostgreSQL + pgvector server:
+```
+docker run --detach --name db --publish 5432:5432 \
+  -e POSTGRES_USER=myuser \
+  -e POSTGRES_PASSWORD=mypassword \
+  -e POSTGRES_DB=mydb \
+  pgvector/pgvector:pg17
+```
+
+Then enable the pgvector extension:
+```
+docker exec -it db psql -U myuser -d mydb
+mydb=# CREATE EXTENSION IF NOT EXISTS vector;
+```
+
+With `donda`:
+
 ```
 # Database operations
 donda db up
