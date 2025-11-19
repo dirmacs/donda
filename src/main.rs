@@ -1,6 +1,7 @@
 mod chunker;
 mod config;
 mod database;
+mod embedder;
 mod errors;
 mod models;
 
