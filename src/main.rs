@@ -1,4 +1,6 @@
 mod config;
+mod database;
+mod errors;
 mod models;
 
 fn main() {
