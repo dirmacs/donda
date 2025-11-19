@@ -54,7 +54,7 @@ donda version
 ## Thanks
 
 - [lancor](https://github.com/dirmacs/lancor)
-- [llama.cpp](https://github.com/ggerganov/llama.cpp)
+- [llama.cpp](https://github.com/ggml-org/llama.cpp)
 - [pgvector](https://github.com/pgvector/pgvector)
 
 and most importantly [tichy](https://github.com/lechgu/tichy), `donda` began life as a rewrite of `tichy` in Rust.
