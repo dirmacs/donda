@@ -1,5 +1,6 @@
 mod chunker;
 mod config;
+mod conversation;
 mod database;
 mod embedder;
 mod errors;
